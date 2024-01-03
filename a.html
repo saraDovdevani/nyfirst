@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./a.js" ></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ='stylesheet' type='text/css' media='screen' href ='a.css'>
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <p>Try to complete the puzzle:</p id ="text">
+        <table id="div1" >
+    <tr>
+        <td  class="box" data-drop="drag3"ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td class="box" data-drop="drag2"ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td class="box" data-drop="drag1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+    </tr>
+
+    <tr>
+        <td  class="box" data-drop="drag4" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td  class="box" data-drop="drag5" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td class="box" data-drop="drag6" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+    </tr>
+
+    <tr>
+        <td  class="box" data-drop="drag7"ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td class="box" data-drop="drag8" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td  class="box" data-drop="drag9"ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+    </tr>
+</table>
+    
+    
+    <br /><br />
+    <img  src="./pic/img1.png" draggable="true" ondragstart="drag(event)" id="drag1" />
+    <img  src="./pic/img2.png" draggable="true" ondragstart="drag(event)" id="drag2" />
+    <img  src="./pic/img3.png" draggable="true" ondragstart="drag(event)" id="drag3"/>
+    <img  src="./pic/img4.png" draggable="true" ondragstart="drag(event)" id="drag4"/>
+    <img  src="./pic/img5.png" draggable="true" ondragstart="drag(event)" id="drag5"/>
+    <img  src="./pic/img6.png" draggable="true" ondragstart="drag(event)" id="drag6"/>
+    <img  src="./pic/img7.png" draggable="true" ondragstart="drag(event)" id="drag7"/>
+    <img  src="./pic/img8.png" draggable="true" ondragstart="drag(event)" id="drag8"/>
+    <img  src="./pic/img9.png" draggable="true" ondragstart="drag(event)" id="drag9"/>
+    </body>
+</html>
+
